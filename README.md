@@ -2,10 +2,13 @@
 
 > 自我介绍
 
-- 希望世界和平，有时愤青，但讨厌暴力和战争
+- 喜欢学习，热情工作，热爱生活
 
 > 掌握技能
  
 - css
 - javascript
+- typescript
 - react
+- vue
+- webpack
