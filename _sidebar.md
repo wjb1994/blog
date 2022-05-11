@@ -1,12 +1,12 @@
-* JavaScript
-  * [浏览器渲染](src/js/web)
-  * [typescript](src/js/typescript)
-  * [作用域](src/js/scope)
-  * [原型链](src/js/prototype)
-* CSS
-  * [CSS基础](src/css/css)
-* 规范
-  * [代码规范](src/lint/lint)
-* 分享
-  * [知识点](src/share/knowledge)
-  * [导航](src/share/guide)
+- JavaScript
+  - [浏览器渲染](src/js/web)
+  - [typescript](src/js/typescript)
+  - [作用域](src/js/scope)
+  - [原型链](src/js/prototype)
+- CSS
+  - [CSS基础](src/css/css)
+- 规范
+  - [代码规范](src/lint/lint)
+- 分享
+  - [知识点](src/share/knowledge)
+  - [导航](src/share/guide)
