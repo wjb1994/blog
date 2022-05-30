@@ -11,14 +11,18 @@
 ## JS
    - [现代JavaScript教程](https://zh.javascript.info/)
    - [typescript官方文档](https://www.tslang.cn/docs/home.html) 
+   - [typescript英文文档](https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype)
 <hr/>
 
 ## React
    - [react官网](https://zh-hans.reactjs.org/)
    - [react源码分析](https://react.iamkasong.com/)
+   - [react源码](https://github.com/neroneroffy/react-source-code-debug)
    - [react-router](https://v5.reactrouter.com/web/guides/quick-start)
    - [redux中文](https://www.redux.org.cn/)
+   - [create react app](https://www.html.cn/create-react-app/)
    - [antd ui](https://ant.design/index-cn)
+   - [react源码-schedule](https://juejin.cn/post/6953804914715803678)
 <hr/>
 
 ## Vue
@@ -88,6 +92,7 @@
    - [Git撤销操作图解](https://www.waynerv.com/posts/git-undo-intro/)
    - [图解Git各种用法](https://luzhaoyang.com/zh/posts/tu-jie-git-ge-zhong-yong-fa.html#%E5%9F%BA%E6%9C%AC%E7%94%A8%E6%B3%95)
    - [git工作流程](https://www.ruanyifeng.com/blog/2015/12/git-workflow.html)
+   - [github action](https://juejin.cn/post/6844904137411264519)
 <hr/>
 
 ## IDE
@@ -109,3 +114,14 @@
    - [算法学习](https://www.lintcode.com/)
    - [掘金](https://juejin.cn/)
    - [思否](https://segmentfault.com/)
+<hr/>
+
+## 运维部署
+  - [docker](https://yeasy.gitbook.io/docker_practice/)
+  - [nginx](https://zhuanlan.zhihu.com/p/34943332)
+  - [linux](https://blog.csdn.net/u012104219/article/details/79125771)
+<hr/>
+
+## 面试
+  - [语雀](https://www.yuque.com/cuggz/interview)
+
