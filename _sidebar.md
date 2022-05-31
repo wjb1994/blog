@@ -5,6 +5,8 @@
   - [原型链](src/js/prototype)
 - CSS
   - [CSS基础](src/css/css)
+  - [CSS居中](src/css/%E5%B1%85%E4%B8%AD.md)
+  - [CSS选择器](src/css/%E9%80%89%E6%8B%A9%E5%99%A8.md)
 - 规范
   - [代码规范](src/lint/lint)
 - 分享

@@ -106,6 +106,7 @@ IE 盒模型认为：盒子的实际尺寸 = 设置的宽/高 = 内容 + 内边�
 
 * `content-box`：标准盒模型；
 * `border-box`：IE 盒模型；
+
 # 3.水平垂直居中
 
 ## 3.1 单行的文本、inline 或 inline-block 元素

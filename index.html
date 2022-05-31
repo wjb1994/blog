@@ -1,38 +1,68 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
+  <head>
+    <meta charset="UTF-8" />
     <title>王加彬的分享</title>
     <meta http-equiv="X-UA-Compatible" content="IE=edge,chrome=1" />
-    <meta name="description" content="Description">
-    <meta name="viewport" content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
-    <link rel="stylesheet" href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css">
+    <meta name="description" content="Description" />
+    <meta
+      name="viewport"
+      content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0"
+    />
+    <link
+      rel="stylesheet"
+      href="//cdn.jsdelivr.net/npm/docsify/themes/vue.css"
+    />
     <!-- <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/docsify-themeable@0/dist/css/theme-simple.css"> -->
-</head>
+  </head>
 
-<body>
+  <body>
     <div id="app">加载中...</div>
     <script>
-        window.$docsify = {
-            //文档标题，会显示在侧边栏顶部。
-            name: '记录与分享',
-            //自定义侧边栏,设置为 true 后会加载 _sidebar.md 文件，也可以自定义加载的文件名
-            loadSidebar: true,
-            //开启封面
-            coverpage: true,
-            //首页显示封面
-            onlyCover: false,
-            // 读取md文件中最大几级目录
-            subMaxLevel: 0,
-            // 加载_404.md
-            notFoundPage: true
-        }
+      window.$docsify = {
+        //文档标题，会显示在侧边栏顶部。
+        name: '记录与分享',
+        //自定义侧边栏,设置为 true 后会加载 _sidebar.md 文件，也可以自定义加载的文件名
+        loadSidebar: true,
+        //开启封面
+        coverpage: true,
+        //首页显示封面
+        onlyCover: false,
+        // 读取md文件中最大几级目录
+        subMaxLevel: 0,
+        // 加载_404.md
+        notFoundPage: true,
+        plugins: [
+          function (hook, vm) {
+            hook.doneEach(function () {
+              window.scrollTo({
+                top: 0,
+                behavior: 'smooth',
+              })
+            })
+          },
+          // hook.afterEach(function (html) {
+          //   if (vm.route.file !== 'README.md') {
+          //     // 页脚
+          //     const footer = [
+          //       "<footer style='text-align: center;'>",
+          //       '<span>Copyright © 2021-2024 <a href="#" target="_blank">wangjiabin</a>. All rights reserved.',
+          //       '</footer>',
+          //     ].join('')
+          //     return html + footer
+          //   } else {
+          //     return html
+          //   }
+          // })
+        ],
+      }
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <!-- 图片放大缩小支持 -->
     <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/zoom-image.min.js"></script>
-    
-</body>
-
+    <!-- 一键复制代码 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify-copy-code@2.1.1/dist/docsify-copy-code.min.js"></script>
+    <!-- 表情包 -->
+    <script src="//cdn.jsdelivr.net/npm/docsify/lib/plugins/emoji.min.js"></script>
+  </body>
 </html>
