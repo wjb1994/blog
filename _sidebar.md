@@ -4,7 +4,7 @@
   - [作用域](src/js/scope)
   - [原型链](src/js/prototype)
 - CSS
-  - [CSS基础](src/css/css)
+  - [CSS基础](src/css/%E6%A8%A1%E5%9D%97%E5%8C%96.md)
 - 规范
   - [代码规范](src/lint/lint)
 - 分享
