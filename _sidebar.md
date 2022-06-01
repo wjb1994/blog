@@ -1,8 +1,6 @@
 - JavaScript
-  - [浏览器渲染](src/js/web)
+  - [JS基础](src/js/scope.md)
   - [typescript](src/ts/ts0_1)
-  - [作用域](src/js/scope)
-  - [原型链](src/js/prototype)
 - CSS
   - [CSS基础](src/css/%E6%A8%A1%E5%9D%97%E5%8C%96.md)
 - 规范
