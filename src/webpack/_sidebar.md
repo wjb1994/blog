@@ -1,7 +1,7 @@
 <!-- docs/_sidebar.md --> 
 * [<b><返回</b>](/src/guide.md)
-* [官方文档](https://www.tslang.cn/)
-* 基本数据类型
+* [babel](/src/webpack/babel.md)
+<!-- * 基本数据类型
   * [基本数据类型](/src/ts/ts0_1.md)
   * [引用数据类型](/src/ts/ts0_2.md)
   * [TS特有类型](/src/ts/ts0_3.md)
@@ -14,4 +14,4 @@
 * 复杂类型
   * [关键字](/src/ts/ts2_1.md)
   * [泛型](/src/ts/ts2_2.md)
-* [声明文件](/src/ts/ts3_1.md)
+* [声明文件](/src/ts/ts3_1.md) -->

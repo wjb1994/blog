@@ -10,6 +10,9 @@
 
 ## JS
    - [现代JavaScript教程](https://zh.javascript.info/)
+   - [现代JavaScript教程](https://zh.javascript.info/)
+   - [ES6 入门教程](https://es6.ruanyifeng.com/)
+   - [MDN-Javascript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
    - [typescript官方文档](https://www.tslang.cn/docs/home.html) 
    - [typescript英文文档](https://www.typescriptlang.org/docs/handbook/utility-types.html#returntypetype)
 <hr/>

@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md --> 
-* [<b><返回</b>](/src/share/guide.md)
+* [<b><返回</b>](/src/guide.md)
 * [作用域](/src/js/scope.md)
 * [原型链](/src/js/prototype.md)
 * [JS继承](/src/js/extends.md)
