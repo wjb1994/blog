@@ -305,6 +305,40 @@ console.log(res);    // 结果还是200
 
 代码过多，要学的，[请点我](https://segmentfault.com/a/1190000023180502)
 
+## Object.create实现
+
+Object.create方法的主要逻辑：创建一个对象，手动设置其隐式原型__proto__属性为传入的参数，然后将这个对象返回。
+
+```js
+Object.myCreate = function (proto) {
+    function Fn () {}
+    Fn.prototype = proto
+    const obj = new Fn()
+    if (propertyObject !== undefined) {
+      Object.defineProperties(obj, propertyObject)
+    }
+    if (proto === null) {
+      // 创建一个没有原型对象的对象，Object.create(null)
+      obj.__proto__ = null
+    }
+    return obj
+}
+
+// 示例
+// 第二个参数为null时，抛出TypeError
+// const throwErr = Object.myCreate({a: 'aa'}, null)  // Uncaught TypeError
+const obj1 = Object.myCreate({a: 'aa'})
+console.log(obj1)  // {}, obj1的构造函数的原型对象是{a: 'aa'}
+const obj2 = Object.myCreate({a: 'aa'}, {
+  b: {
+    value: 'bb',
+    enumerable: true
+  }
+})
+console.log(obj2)  // {b: 'bb'}, obj2的构造函数的原型对象是{a: 'aa'}
+
+```
+
 ## 参考链接
 
 * [new,call,apply,bind方法的实现原理](https://segmentfault.com/a/1190000021905571)
