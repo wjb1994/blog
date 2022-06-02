@@ -3,6 +3,7 @@
 * [babel](/src/webpack/babel.md)
 * [webpack](/src/webpack/webpack.md)
 * [monorepo](/src/webpack/monorepo.md)
+* [npm包开发](/src/webpack/npm.md)
 <!-- * 基本数据类型
   * [基本数据类型](/src/ts/ts0_1.md)
   * [引用数据类型](/src/ts/ts0_2.md)
