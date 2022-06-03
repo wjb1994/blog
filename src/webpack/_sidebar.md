@@ -2,7 +2,8 @@
 * [<b><返回</b>](/src/guide.md)
 * [babel](/src/webpack/babel.md)
 * [webpack](/src/webpack/webpack.md)
-* [plugin开发](/src/webpack/plugin.md)
+* [webpack plugin开发](/src/webpack/plugin.md)
+* [webpack loader开发](/src/webpack/loader.md)
 * [monorepo](/src/webpack/monorepo.md)
 * [npm包开发](/src/webpack/npm.md)
 <!-- * 基本数据类型
