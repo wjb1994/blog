@@ -400,4 +400,5 @@ export default {
 
 ## 参考链接
 
-*[从零开始发布自己的NPM包](https://xieyufei.com/2021/12/28/Npm-Package.html#%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%8C%85)
+* [开发一个规范的 npm 包](https://juejin.cn/post/6945376222863949831)
+* [从零开始发布自己的NPM包](https://xieyufei.com/2021/12/28/Npm-Package.html#%E5%B7%A5%E5%85%B7%E7%B1%BB%E5%8C%85)
