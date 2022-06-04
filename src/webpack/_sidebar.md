@@ -6,6 +6,7 @@
 * [webpack loader开发](/src/webpack/loader.md)
 * [monorepo](/src/webpack/monorepo.md)
 * [npm包开发](/src/webpack/npm.md)
+* [代码规范](src/share/lint)
 <!-- * 基本数据类型
   * [基本数据类型](/src/ts/ts0_1.md)
   * [引用数据类型](/src/ts/ts0_2.md)

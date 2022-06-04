@@ -1,11 +1,6 @@
 - [学习导航](src/guide)
-- JavaScript
-  - [JS基础](src/js/index.md)
-  - [typescript](src/ts/index.md)
+- [JS基础](src/js/index.md)
 - [CSS基础](src/css/index.md)
 - [前端工程化](src/webpack/index.md)
-- 规范
-  - [代码规范](src/lint/lint)
-- 分享
-  - [知识点](src/share/knowledge)
+- [技术杂项](src/share/knowledge)
 
