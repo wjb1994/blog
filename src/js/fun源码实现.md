@@ -339,6 +339,39 @@ console.log(obj2)  // {b: 'bb'}, obj2的构造函数的原型对象是{a: 'aa'}
 
 ```
 
+## instanceof实现
+
+```js
+// 代码
+function _instanceof(L, R) {
+  if (typeof L !== 'object') return false
+
+  L = L.__proto__
+  R = R.prototype
+
+  while (true) {
+    if (L === null) return false
+
+    if (L === R) return true
+
+    L = L.__proto__
+  }
+}
+
+// 测试
+function Car(make, model, year) {
+  this.make = make
+  this.model = model
+  this.year = year
+}
+const auto = new Car('Honda', 'Accord', 1998)
+console.log(_instanceof(auto, Car)) // expected output: true
+
+// 测试
+console.log(_instanceof([1, 2], Array)) // expected output: true
+console.log(_instanceof({ a: 1 }, Object)) // expected output: true
+```
+
 ## 参考链接
 
 * [new,call,apply,bind方法的实现原理](https://segmentfault.com/a/1190000021905571)
