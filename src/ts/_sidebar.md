@@ -1,5 +1,5 @@
 <!-- docs/_sidebar.md --> 
-* [<b><返回</b>](/src/guide.md)
+* [<b><返回</b>](/src/js/index.md)
 * [官方文档](https://www.tslang.cn/)
 * 基本数据类型
   * [基本数据类型](/src/ts/ts0_1.md)
