@@ -6,4 +6,5 @@
 * [webpack loader开发](/src/webpack/loader.md)
 * [monorepo](/src/webpack/monorepo.md)
 * [npm包开发](/src/webpack/npm.md)
+* [lerna](/src/webpack/lerna.md)
 * [代码规范](src/share/lint)
