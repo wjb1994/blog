@@ -15,3 +15,4 @@
   * [关键字](/src/ts/ts2_1.md)
   * [泛型](/src/ts/ts2_2.md)
 * [声明文件](/src/ts/ts3_1.md)
+* [声明文件创建与使用](/src/ts/ts4.md)
