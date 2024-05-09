@@ -36,6 +36,14 @@
    - [vue-cli源码](https://juejin.cn/post/7058460792059854856)
 <hr>
 
+## 构建
+   - [Webpack中文文档](https://webpack.docschina.org/guides/)
+   - [深入浅出Webpack](http://webpack.wuhaolin.cn/)
+   - [webpack入门](https://www.jiangruitao.com/webpack/)
+   - [babel官网](https://www.babeljs.cn/docs/)
+   - [eslint](http://eslint.cn/)
+<hr>
+
 ## 微信开发
    - [微信开发文档](https://developers.weixin.qq.com/doc/)
    - [微信公众平台](https://mp.weixin.qq.com/)

@@ -1,5 +1,7 @@
-## 以下是本人珍藏的关于JS书签哦！
 
-- [现代JavaScript教程](https://zh.javascript.info/)
-- [ES6 入门教程](https://es6.ruanyifeng.com/)
-- [MDN-Javascript](https://developer.mozilla.org/zh-CN/docs/Web/JavaScript)
+- [作用域](/src/js/scope.md)
+- [原型链](/src/js/prototype.md)
+- [JS继承](/src/js/extends.md)
+- [浏览器原理](/src/js/web.md)
+- [常用函数实现](/src/js/fun%E6%BA%90%E7%A0%81%E5%AE%9E%E7%8E%B0.md)
+- [typescript](src/ts/index.md)

@@ -1,3 +1,11 @@
+<!--
+ * @Author: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @Date: 2024-05-09 19:36:14
+ * @LastEditors: error: error: git config user.name & please set dead value or install git && error: git config user.email & please set dead value or install git & please set dead value or install git
+ * @LastEditTime: 2024-05-09 22:44:13
+ * @FilePath: /blog/index.html
+ * @Description: 这是默认设置,请设置`customMade`, 打开koroFileHeader查看配置 进行设置: https://github.com/OBKoro1/koro1FileHeader/wiki/%E9%85%8D%E7%BD%AE
+-->
 <!DOCTYPE html>
 <html lang="en">
   <head>
@@ -22,15 +30,16 @@
     <script>
       window.$docsify = {
         //文档标题，会显示在侧边栏顶部。
-        name: '记录与分享',
+        name: "记录与分享",
         //自定义侧边栏,设置为 true 后会加载 _sidebar.md 文件，也可以自定义加载的文件名
         loadSidebar: true,
         //开启封面
         coverpage: true,
         //首页显示封面
         onlyCover: false,
-        // 读取md文件中最大几级目录
-        subMaxLevel: 0,
+        // 最大支持渲染的标题层级
+        maxLevel: 1,
+        loadNavbar: true,
         // 加载_404.md
         notFoundPage: true,
         plugins: [
@@ -38,9 +47,9 @@
             hook.doneEach(function () {
               window.scrollTo({
                 top: 0,
-                behavior: 'smooth',
-              })
-            })
+                behavior: "smooth",
+              });
+            });
           },
           // hook.afterEach(function (html) {
           //   if (vm.route.file !== 'README.md') {
@@ -56,7 +65,7 @@
           //   }
           // })
         ],
-      }
+      };
     </script>
     <script src="//unpkg.com/docsify/lib/docsify.min.js"></script>
     <!-- 图片放大缩小支持 -->

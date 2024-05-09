@@ -1,9 +1,8 @@
-## 以下是本人珍藏的关于CSS书签哦！
-
-   - [选择器练习](https://flukeout.github.io/)
-   - [MDN](https://developer.mozilla.org/zh-CN/docs/Learn/CSS)
-   - [CSS Tricks](https://lhammer.cn/You-need-to-know-css/#/zh-cn/)
-   - [CSS规范](https://juejin.cn/post/6844904200984330253)
-   - [BEM规范](https://luzhaoyang.com/zh/posts/css-ming-ming-gui-fan---bem.html#%E4%BD%BF%E7%94%A8%E8%BF%9E%E5%AD%97%E7%AC%A6-%E5%88%86%E9%9A%94%E5%AD%97%E7%AC%A6%E4%B8%B2)
-   - [CSS解决方案](https://www.cnblogs.com/ssaylo/p/12874105.html)
-   - [CSS面试题](https://juejin.cn/post/6905539198107942919)
+   - [css居中](/src/css/%E5%B1%85%E4%B8%AD.md)
+   - [css选择器](/src/css/%E9%80%89%E6%8B%A9%E5%99%A8.md)
+   - [盒子模型](/src/css/%E7%9B%92%E6%A8%A1%E5%9E%8B.md)
+   - [视觉格式化-BFC](/src/css/bfc.md)
+   - [视觉格式化-IFC](/src/css/ifc.md)
+   - [postcss](/src/css/postcss.md)
+   - [cssnext](/src/css/cssnext.md)
+   - [模块化](/src/css/%E6%A8%A1%E5%9D%97%E5%8C%96.md)
